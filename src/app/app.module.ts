@@ -28,6 +28,8 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 
 @NgModule({
   declarations: [
@@ -61,6 +63,8 @@ import { PromocoesComponent } from './pages/home/promocoes/promocoes.component';
     MatNativeDateModule,
     MatDialogModule,
     HttpClientModule,
+    ReactiveFormsModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
